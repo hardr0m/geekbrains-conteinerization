@@ -3,4 +3,4 @@ RUN mkdir /build
 ADD go.mod go.sum main.go /build/
 WORKDIR /build
 RUN go build
-EXPOSE 8080
+EXPOSE 8180
