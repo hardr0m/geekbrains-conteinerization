@@ -6,6 +6,6 @@ metadata:
   labels:
     app: postgres
 data:
-  1 : testdatabase
+  POSTGRES_DB : testdatabase
   POSTGRES_USER: testuser
   PGDATA: /var/lib/postgresql/data/pgdata
