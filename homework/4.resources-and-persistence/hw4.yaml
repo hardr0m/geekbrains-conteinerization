@@ -22,17 +22,10 @@ spec:
             - configMapRef:
                 name: postgres-config
                 key: PGDATA
-
-            - configMapRef:
-                name: postgres-config
-                key: POSTGRES_PORT
-
+                
             - configMapRef:
                 name: postgres-config
                 key: POSTGRES_USER
-            - configMapRef:
-                name: postgres-config
-                key: POSTGRES_PASSWORD
 
             - configMapRef:
                 name: postgres-config
